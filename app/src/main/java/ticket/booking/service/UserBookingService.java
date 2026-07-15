@@ -25,4 +25,8 @@ public class UserBookingService {
         userList = objectMapper.readValue(users, new TypeReference<List<User>>() {
         });
     }
+
+    public Boolean loginUser(){
+        
+    }
 }
