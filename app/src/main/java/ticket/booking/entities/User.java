@@ -38,7 +38,7 @@ public class User {
 
     public void printTickets(){
         for (int i = 0; i < ticketsBooked.toArray().length; i++) {
-            System.out.println(ticketsBooked.get(i));
+            System.out.println(ticketsBooked.get(i).getTrainInfo());
         }
     }
 
